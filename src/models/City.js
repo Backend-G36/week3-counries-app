@@ -1,7 +1,7 @@
 const { DataTypes } = require('sequelize');
 const sequelize = require('../utils/connection');
 
-const City = sequelize.define('city', {
+const City = sequelize.define('city', { //-> cities 
   name: {
     type: DataTypes.STRING,
     allowNull: false
